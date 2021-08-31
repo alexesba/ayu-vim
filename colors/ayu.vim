@@ -139,6 +139,8 @@ hi LongLineWarning  guifg=NONE        guibg=#371F1C     gui=underline ctermfg=NO
 exe "hi! Comment"         .s:fg_comment   .s:bg_none        .s:fmt_none
 
 exe "hi! Constant"        .s:fg_constant  .s:bg_none        .s:fmt_none
+exe "hi! Number"          .s:fg_constant  .s:bg_none        .s:fmt_none
+exe "hi! jsNumber"        .s:fg_constant  .s:bg_none        .s:fmt_none
 exe "hi! String"          .s:fg_string    .s:bg_none        .s:fmt_none
 "   Character"
 "   Number"
@@ -149,14 +151,18 @@ exe "hi! Identifier"      .s:fg_tag       .s:bg_none        .s:fmt_none
 exe "hi! Function"        .s:fg_function  .s:bg_none        .s:fmt_none
 
 exe "hi! Statement"       .s:fg_keyword   .s:bg_none        .s:fmt_none
+exe "hi! Keyword"         .s:fg_keyword   .s:bg_none        .s:fmt_none
 "   Conditional"
 "   Repeat"
 "   Label"
 exe "hi! Operator"        .s:fg_operator  .s:bg_none        .s:fmt_none
+exe "hi! jsOperator"      .s:fg_operator  .s:bg_none        .s:fmt_none
 "   Keyword"
 "   Exception"
 
 exe "hi! PreProc"         .s:fg_special   .s:bg_none        .s:fmt_none
+exe "hi! jsImport"        .s:fg_special   .s:bg_none        .s:fmt_none
+exe "hi! Constant"        .s:fg_special   .s:bg_none        .s:fmt_none
 "   Include"
 "   Define"
 "   Macro"
